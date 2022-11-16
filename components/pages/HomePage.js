@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View, Image, Button, TextInput } from 'react-native';
 import * as React from 'react';
-import SearchBar from '../tools/SearchBar.js';
 
 export function HomePage({navigation}){
     return (

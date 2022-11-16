@@ -7,9 +7,9 @@ import TextField from "@mui/material/TextField"
 import styled from "@emotion/styled";
 
 import {MyComponent} from './MyComponent';
-import SearchBar from './components/tools/SearchBar';
 import { HomePage } from './components/pages/HomePage';
 import { PatientPage } from './components/pages/PatientPage';
+import { PatientDataPage } from './components/pages/PatientDataPage';
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +26,9 @@ export default function App() {
           />
           <Stack.Screen 
             name='PatientPage' component={PatientPage}
+          />
+          <Stack.Screen
+            name="PatientDataPage" component={PatientDataPage}
           />
         </Stack.Navigator>
       </NavigationContainer>

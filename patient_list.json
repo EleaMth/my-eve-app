@@ -4,41 +4,47 @@
     "firstname": "Elea",
     "lastname": "Mathieu",
     "age": 21,
-    "notes": "notes Patient El�a"
+    "notes": "notes Patient El�a",
+    "image": "https://thispersondoesnotexist.com/image"
   },
   {
     "id": 2,
     "firstname": "Yazmin",
     "lastname": "Stern",
     "age": 22,
-    "notes": "Notes Patient Yazmin"
+    "notes": "Notes Patient Yazmin",
+    "image": "https://thispersondoesnotexist.com/image"
   },
   {
     "id": 3,
     "firstname": "Juana",
     "lastname": "Sologuren",
     "age": 25,
-    "notes": "Notes Patient Juana"
+    "notes": "Notes Patient Juana",
+    "image": "https://thispersondoesnotexist.com/image"
   },
   {
     "id": 4,
     "firstname": "Miqueas",
     "lastname": "Filsinger",
     "age": 22,
-    "notes": "Notes Patient Miqueas"
+    "notes": "Notes Patient Miqueas",
+    "image": "https://thispersondoesnotexist.com/image"
   },
   {
     "id": 5,
     "firstname": "Eylul",
     "lastname": "Mengenli",
     "age": 22,
-    "notes": "Notes Patient Eylul"
+    "notes": "Notes Patient Eylul",
+    "image": "https://thispersondoesnotexist.com/image"
   },
   {
     "id": 6,
     "firstname": "Jinqiu",
     "lastname": "Yang",
     "age": 23,
-    "notes": "Notes Patient Jinqiu"
+    "notes": "Notes Patient Jinqiu",
+    "image": "https://thispersondoesnotexist.com/image"
   }
 ]
