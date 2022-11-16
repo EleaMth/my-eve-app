@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-export function MyComponent() {
+export function PatientPage() {
 
- return (
+  return (
     <View >
-      <Text style={styles.title}> Welcome in the Profile Page </Text>
-      {/* <Image source={require("./images/coeur.png")} style={{ width: 40, height: 40, alignSelf: "center" }} /> */}
+      <Text style={styles.title}> Welcome in the Patient Page </Text>
     </View>
   );
 }

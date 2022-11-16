@@ -1,22 +1,31 @@
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+// import SearchBar from './SearchBar.js';
 
 export function HomePage({navigation}){
     return (
+
+      <>
         <Button
-            title="Your profile page"
-            onPress={() =>
-                navigation.navigate('Profile', { name: 'Jane' })
-            }
+        title="Your profile page"
+        onPress={() => navigation.navigate('Profile')} 
         />
+        <Button
+          title="Patient page"
+          onPress={() => navigation.navigate('PatientPage')} 
+        />
+          
+        {/* <SearchBar placeholder='Enter Patient Name'/> */}
+          
+      </> 
+
+
     );
 };
 
-const ProfileScreen = ({ navigation, route }) => {
-  return <Text>This is {route.params.name}'s profile</Text>;
-};
+// const ProfileScreen = ({ navigation, route }) => {
+//   return <Text>This is {route.params.name}'s profile</Text>;
+// };
 
 
 const styles = StyleSheet.create({
