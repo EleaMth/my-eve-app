@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View, Image, Button } from 'react-native';
+import { StyleSheet, Text, View, Image, Button, TextInput } from 'react-native';
 import * as React from 'react';
-// import SearchBar from './SearchBar.js';
+import SearchBar from '../tools/SearchBar.js';
 
 export function HomePage({navigation}){
     return (
@@ -15,7 +15,7 @@ export function HomePage({navigation}){
           onPress={() => navigation.navigate('PatientPage')} 
         />
           
-        {/* <SearchBar placeholder='Enter Patient Name'/> */}
+       
           
       </> 
 

@@ -7,9 +7,9 @@ import TextField from "@mui/material/TextField"
 import styled from "@emotion/styled";
 
 import {MyComponent} from './MyComponent';
-import {HomePage} from './HomePage';
-import {PatientPage} from './PatientPage';
-import SearchBar from './SearchBar';
+import SearchBar from './components/tools/SearchBar';
+import { HomePage } from './components/pages/HomePage';
+import { PatientPage } from './components/pages/PatientPage';
 
 const Stack = createNativeStackNavigator();
 
